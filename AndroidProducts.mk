@@ -19,9 +19,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/bliss_x86_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    android_x86_64-eng \
-    android_x86_64-user \
-    android_x86_64-userdebug \
-    bliss_x86_64-eng \
-    bliss_x86_64-user \
-    bliss_x86_64-userdebug
+    bliss_latte-eng \
+    bliss_latte-user \
+    bliss_latte-userdebug

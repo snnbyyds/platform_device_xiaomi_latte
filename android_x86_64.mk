@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# includes the base of Android-x86 platform
-$(call inherit-product,device/generic/common/x86_64.mk)
+# includes the common tree
+$(call inherit-product,device/xiaomi/x86_64-common/x86_64.mk)
 
 # Overrides
-PRODUCT_NAME := android_x86_64
-PRODUCT_BRAND := Android-x86
-PRODUCT_DEVICE := x86_64
-PRODUCT_MODEL := Generic Android-x86_64
+PRODUCT_NAME := bliss_latte
+PRODUCT_BRAND := Xiaomi
+PRODUCT_DEVICE := latte
+PRODUCT_MODEL := Mipad 2
