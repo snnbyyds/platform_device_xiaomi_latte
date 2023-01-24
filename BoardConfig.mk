@@ -39,4 +39,11 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 512
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 
+# Device Kernel
+TARGET_KERNEL_CONFIG := latte_defconfig
+KERNEL_DIR := kernel-latte
+TARGET_AUTO_KDIR := kernel-latte
+TARGET_KERNEL_SOURCE := kernel-latte
+KERNEL_TARGET := bzImage
+
 include device/generic/common/BoardConfig.mk
