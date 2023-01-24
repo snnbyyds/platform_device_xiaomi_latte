@@ -15,7 +15,7 @@
 #
 
 # includes the common tree
-$(call inherit-product,device/xiaomi/x86_64-common/x86_64.mk)
+$(call inherit-product,device/generic/common/x86_64.mk)
 
 # Overrides
 PRODUCT_NAME := bliss_latte
