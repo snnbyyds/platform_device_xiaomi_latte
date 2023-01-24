@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/android_x86_64.mk \
-    $(LOCAL_DIR)/bliss_x86_64.mk
+    $(LOCAL_DIR)/android_latte.mk \
+    $(LOCAL_DIR)/bliss_latte.mk
 
 COMMON_LUNCH_CHOICES := \
     bliss_latte-eng \
