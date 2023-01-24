@@ -17,6 +17,9 @@
 # includes the base of Android-x86 platform
 $(call inherit-product,device/generic/common/x86_64.mk)
 
+# Inherit from latte device
+$(call inherit-product,device/xiaomi/latte/device.mk)
+
 # Overrides
 PRODUCT_NAME := bliss_latte
 PRODUCT_BRAND := Xiaomi
