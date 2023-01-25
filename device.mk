@@ -1,2 +1,2 @@
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/firmware/brcmfmac4356-pcie.txt:$(abspath $(TARGET_OUT))/lib/firmware/brcm/brcmfmac4356-pcie.txt
+    $(LOCAL_PATH)/firmware/brcmfmac4356-pcie.txt:$(TARGET_COPY_OUT_SYSTEM)/lib/firmware/brcm/brcmfmac4356-pcie.txt
